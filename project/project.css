@@ -1,0 +1,71 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.container h1 {
+    background: linear-gradient(90deg, #2B7DDD 3.58%, #45CDD6 50.39%, #46B314 98.18%);
+    padding: 25px 0;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 2.5rem;
+}
+
+.container p{
+    font-size: 25px;
+    line-height: 35px;
+    text-align: center;
+}
+
+.container-2 {
+    max-width: 250px;
+    margin: 50px auto;
+    padding: 45px;
+    background: white;
+    box-shadow: 0 0 7px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-name {
+    width: 150px;
+    height: 40px;
+    border-radius: 8px;
+    border: 0.5px solid black;
+    font-size: 16px;
+    padding: 0 5px;
+}
+
+.btn {
+    width: 250px;
+    height: 40px;
+    border-radius: 8px;
+    color: white;
+    background-color: green;
+    border: 0.5px solid black;
+    font-size: 16px;
+    padding: 0 5px;
+}
+
+.btn:hover {
+    color: black;
+    cursor: pointer;
+}
+.btn-2 {
+    width: 150px;
+    height: 40px;
+    border-radius: 8px;
+    color: white;
+    background-color:#45CDD6;
+    border: 0.5px solid black;
+    font-size: 16px;
+    padding: 0 5px;
+}
+
+.btn-2:hover {
+    color: black;
+    cursor: pointer;
+}

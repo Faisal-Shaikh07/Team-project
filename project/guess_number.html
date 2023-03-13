@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=, initial-scale=1.0" />
+  <link rel="stylesheet" href="project.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+  <title>Guess the number</title>
+</head>
+
+
+<body>
+  <div class="container">
+    <h1>Guess The Number</h1>
+    <p>Guess the number between 1 to 100</p> <br>
+    <p onclick="submitGuess" id="attempts"> you have left 10 chances:</p>
+  </div>
+  <div class="container-2">
+    <button onclick="guessNumber()" id="btn.play" class="btn">Play</button>
+    <input type="number" id="guessinput" style="display: none" class="input-name" />
+    <button onclick="submitGuess()" id="submitGuess" style="display: none" class="btn-2">Enter</button>
+  </div>
+  <script src="guess_number.js"></script>
+</body>
+
+</html>
